@@ -1,14 +1,19 @@
 <template>
-  
+<footer>
+  <footerfr></footerfr>
+</footer>
 </template>
 
 <script>
-import footer from './components/footer.vue'
+import footerfr from './components/footerfr.vue'
+import * as Vue from 'vue'
+import axios from 'axios'
+import { VueAxios } from 'vue-axios';
 
 export default {
-  name: 'App',
   components: {
-  footer
+    footerfr
+
   }
 }
 </script>

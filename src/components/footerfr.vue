@@ -1,7 +1,7 @@
 <template>
      <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Jibril Mohamud</a>.
   </div>
 </template>
 
@@ -14,4 +14,9 @@
 <style scoped>
  .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution{
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+    }
 </style>
