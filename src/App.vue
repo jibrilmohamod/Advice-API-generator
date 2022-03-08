@@ -1,30 +1,37 @@
 <template>
-<footer>
-  <footerfr></footerfr>
-</footer>
+ <div id="app">
+  <advice></advice>
+  <footer>
+   <footerfr> </footerfr>
+  </footer>
+ </div>
 </template>
 
 <script>
-import footerfr from './components/footerfr.vue'
-import * as Vue from 'vue'
-import axios from 'axios'
-import { VueAxios } from 'vue-axios';
+ import footerfr from "./components/footerfr.vue"
+ import advice from "./components/advice.vue"
 
-export default {
+ export default {
   components: {
-    footerfr
-
-  }
-}
+   footerfr,
+   advice,
+  },
+ }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+ * {
+  box-sizing: border-box;
+  /* height: 100%; */
+  background-color: hsl(218, 23%, 16%);
+  font-family: "Manrope", sans-serif;
+ }
+ #app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100;
+ }
 </style>
