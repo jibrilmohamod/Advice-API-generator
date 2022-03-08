@@ -63,8 +63,8 @@
   display: grid;
   justify-items: center;
   align-items: center;
-  height: 30%;
-  width: 50vh;
+  height: 300px;
+  width: 500px;
   border-radius: 10px;
  }
  span {
