@@ -50,6 +50,9 @@
      })
    },
   },
+  beforeMount() {
+   this.getAdvice()
+  },
  }
 </script>
 
